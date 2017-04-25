@@ -1,4 +1,7 @@
-# test coverage for  [type-is (v1.6.15)](https://github.com/jshttp/type-is#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-type-is.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-type-is) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-type-is.svg)](https://travis-ci.org/npmtest/node-npmtest-type-is)
+# npmtest-type-is
+
+#### basic test coverage for  [type-is (v1.6.15)](https://github.com/jshttp/type-is#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-type-is.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-type-is) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-type-is.svg)](https://travis-ci.org/npmtest/node-npmtest-type-is)
+
 #### Infer the content-type of a request.
 
 [![NPM](https://nodei.co/npm/type-is.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/type-is)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-type-is/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-type-is/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-type-is/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-type-is/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-type-is/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-type-is/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-type-is/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-type-is/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-type-is/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-type-is/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-type-is/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-type-is/build/coverage.html/index.html)
 
@@ -99,7 +102,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.6.15"
+    "version": "1.6.15",
+    "bin": {}
 }
 ```
 
